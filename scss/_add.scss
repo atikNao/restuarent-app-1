@@ -1,0 +1,19 @@
+@use  "./custom" as *;
+@use  "./mixin" as *;
+
+.add{
+    &-body{
+        padding: 5rem 3rem;
+        background:url('/images/add-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        // background-color: #000000db; 
+        background-color: #2C2B2A; 
+        border-radius: 2rem;
+
+        @include media-breakpoint-down(sm){
+            padding: 1rem;
+        }
+    }
+}

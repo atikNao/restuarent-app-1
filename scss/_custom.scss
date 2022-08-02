@@ -1,0 +1,83 @@
+/* YOUR CUSTOM VARIABL DECLARE BELOW HERE
+----------------------------------------- */
+
+//My BASE FONT FAMILY
+$font-outfit: 'Outfit', sans-serif;
+
+// MY BODY TEXT BASE COLOR
+$text-color-base: rgb(35,38,47);
+
+// MY PRIMARY COLOR
+// $color-primary: rgb(119,126,144);
+$color-primary: #fff;
+
+$color-secondary:#F8BD49;
+
+
+//MY SECTION BACKGROUND COLOR 
+$section-bg-color: rgb(244,245,246);
+
+//MY BOX BACKGROUND COLOR
+$box-color:rgb(252, 252, 253);
+
+//MY BOX BORDER COLOR
+$box-border-color: #f1f1f1;
+
+
+
+
+/* -------------------------------------------------------------------------
+
+OVERWRIGHT THE BOOTSTRAP VARIABLE VALUE WITH YOUR CUSTOM VERIABLE HERE
+
+----------------------------BELOW THIS LINE----------------------------------*/
+
+//CUSTOMIZE BOOTSTRAP BASE FONT FAMILY VARIABLE
+$font-family-base: $font-outfit;
+
+//CUSTOMIZE BOOTSTRAP BODY COLOR VARIABLE
+$body-color: $text-color-base;
+
+//CUSTOMIZE BOOTSTRAP PRIMARY COLOR VARIABLE
+$primary: $color-primary;
+$secondary: $color-secondary;
+
+
+// CUSTOMIZE THE ANCHOR HOVER COLOR PERCENTAGE
+$link-shade-percentage: 20%;
+    
+//CUSTOMIZE THE BOOTSTRAP NAV LINK COLOR 
+$navbar-light-color: $primary;
+
+//TEST CODING
+
+//NAV LINK ACTIVE COLOR
+$navbar-light-active-color: $secondary;
+
+//NAV LINK HOVER COLOR
+$navbar-light-hover-color: $navbar-light-active-color;
+
+
+// CUSTOMIZE CAROUSEL INDICATOR COLOR
+$carousel-indicator-active-bg: #000;
+$carousel-indicator-width: 15px ;
+$carousel-indicator-height: 15px ;
+
+.carousel-indicators {
+     
+    [data-bs-target] {
+        border-radius: 50%;      
+    }
+  
+    .active {
+      background-color: $secondary !important;
+      transition: 0.1s !important;
+    }
+  }
+
+
+
+
+
+//IMPORT BOOTSTRAP 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

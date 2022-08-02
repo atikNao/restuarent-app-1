@@ -1,0 +1,22 @@
+@use  "./custom" as *;
+@use  "./mixin" as *;
+
+.intro {
+
+    &-des {
+       padding-top: 5rem;
+       padding-bottom: 5rem;
+        width:80%;
+
+        @include media-breakpoint-up(md){
+            width: 60%;
+
+        }
+        
+        &-items {
+            p {
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

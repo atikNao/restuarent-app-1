@@ -1,0 +1,28 @@
+@use "./custom" as *;
+@use "./mixin" as *;
+
+.footer {
+
+    .galary {
+        padding-top: .5rem;
+
+    }
+}
+
+.footer-nav {    
+    li {
+        a {
+            padding-top: 0;
+            font-size: 1rem;
+        }
+    }
+}
+
+
+.border-dotted {
+    border-top: 1px dashed $gray-500;
+    border-bottom: 1px dashed $gray-500;
+    
+}
+
+

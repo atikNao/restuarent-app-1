@@ -1,0 +1,23 @@
+@use  "./custom" as *;
+
+.menu {
+
+    &-item{
+        display: flex;
+        align-items: center;
+        gap:1rem;
+        flex-direction: column;
+        justify-content: center;
+
+        @include media-breakpoint-up(md){
+            flex-direction: row;
+        }
+
+        &-des {
+            p {
+                color: darken($primary, 50%);
+                                
+            }           
+        }
+    }
+}

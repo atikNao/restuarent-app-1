@@ -1,0 +1,19 @@
+@use  "./custom" as *;
+@use "./mixin" as *;
+
+.cta {
+    position: relative;
+
+    &-item {
+        border-radius: 1rem;
+        padding: 8rem 2rem;
+        text-align: center;
+        color: $primary;
+        background: url("/images/bg-10.png");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        transform: translateY(-180px);
+        
+    }
+}
